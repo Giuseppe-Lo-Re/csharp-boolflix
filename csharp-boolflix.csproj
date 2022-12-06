@@ -9,14 +9,23 @@
 
   <ItemGroup>
     <_WebToolingArtifacts Remove="Properties\launchSettings.json" />
+    <_WebToolingArtifacts Remove="Properties\serviceDependencies.json" />
+    <_WebToolingArtifacts Remove="Properties\serviceDependencies.local.json" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="Properties\launchSettings.json" />
+    <Content Include="Properties\serviceDependencies.json" />
+    <Content Include="Properties\serviceDependencies.local.json" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="csharp-boolflix.csproj" />
+    <None Include="Views\Films\Create.cshtml" />
+    <None Include="Views\Films\Delete.cshtml" />
+    <None Include="Views\Films\Details.cshtml" />
+    <None Include="Views\Films\Edit.cshtml" />
+    <None Include="Views\Films\Index.cshtml" />
     <None Include="Views\Home\Index.cshtml" />
     <None Include="Views\Home\Privacy.cshtml" />
     <None Include="Views\Shared\Error.cshtml" />
